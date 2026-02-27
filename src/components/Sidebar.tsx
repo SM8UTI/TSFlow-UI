@@ -19,6 +19,7 @@ const navigation: NavItem[] = [
         name: "Components",
         icon: Component,
         children: [
+            { name: "Button", href: "/components/button" },
             { name: "FAQ Layouts", href: "/layouts/faq" },
         ]
     },
