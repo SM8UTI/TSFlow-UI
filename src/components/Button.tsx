@@ -1,3 +1,5 @@
+"use client";
+
 import React, { forwardRef } from "react";
 import { motion, HTMLMotionProps } from "framer-motion";
 import { twMerge } from "tailwind-merge";
