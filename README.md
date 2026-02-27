@@ -109,6 +109,34 @@ export default function App() {
 }
 ```
 
+### Button Component Example:
+
+The `Button` component is a fully-typed, animated button powered by Framer Motion. It includes 4 variants, 4 sizes, automatic loading states, and icon support!
+
+```tsx
+import { Button } from "tsflow-ui";
+import { ArrowRight } from "lucide-react";
+
+export default function App() {
+  return (
+    <div className="p-10 flex gap-4">
+      {/* Basic Usage */}
+      <Button variant="solid">Solid Button</Button>
+
+      {/* With Loading State */}
+      <Button variant="outline" isLoading={true}>
+        Loading
+      </Button>
+
+      {/* With Icons */}
+      <Button variant="ghost" rightIcon={<ArrowRight size={16} />}>
+        Continue
+      </Button>
+    </div>
+  );
+}
+```
+
 ## Contributing
 
 Feedback and contributions are welcome!
