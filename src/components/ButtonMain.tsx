@@ -13,7 +13,7 @@ export default function ButtonMain() {
                 </p>
             </div>
 
-            <ComponentShowcase componentPath="src/components/Button.tsx" title="Animated Button">
+            <ComponentShowcase componentPath="components/Button.tsx" title="Animated Button">
                 <div className="flex flex-col gap-8 w-full">
 
                     <div className="flex flex-col gap-3">

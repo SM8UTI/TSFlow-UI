@@ -23,7 +23,6 @@ const navigation: NavItem[] = [
             { name: "FAQ Layouts", href: "/layouts/faq" },
         ]
     },
-    { name: "Settings", href: "/settings", icon: Settings },
 ];
 
 function NavGroup({ item, currentPath }: { item: NavItem, currentPath: string | null }) {
