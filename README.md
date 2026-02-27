@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://raw.githubusercontent.com/SM8UTI/TSFlow-UI/main/public/logo.png" alt="TSFlow UI Logo" width="120" />
+</div>
+
 # TSFlow UI
 
 Welcome to **TSFlow UI**, a beautiful, customizable React/Next.js component library built with Tailwind CSS v4 and Framer Motion.
